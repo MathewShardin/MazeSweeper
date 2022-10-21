@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>MazeSweep</title>
+        <link rel="icon" type="image/x-icon" href="Sources/favicon.ico">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="howler.js-2.2.3/dist/howler.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="tableTop">
+                <img alt="restart button" id="restartButton" src="Sources/restart.png" onclick="startGame()">
+                <img alt="close button" id="closeButton" src="Sources/close.png" onclick="document.location.reload(true)">
+                <p id="statusP"><b>MazeSweeper</b></p>
+            </div>
+            <div id="playTable" width="800px" height="600px">
+                <p id="startP">
+                    <b>Reach the goal but don't blow!</b> <br>
+                    <i>Move with WASD, check with Left Mouse Click</i> <br>
+                    Press reload to play!
+
+                </p>
+            </div>
+        </div>
+
+
+
+        <script src="game.js"></script>
+    </body>
+</html>
